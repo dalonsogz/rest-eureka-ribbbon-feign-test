@@ -20,7 +20,7 @@ import com.test.ws.core.CoreController;
 
 
 @org.springframework.web.bind.annotation.RestController
-@RequestMapping("/rest")
+@RequestMapping("/rest/juegos")
 public class RestController extends CoreController {
 
 	private JuegosService juegosService;
